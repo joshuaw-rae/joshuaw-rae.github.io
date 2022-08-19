@@ -27,7 +27,7 @@ var map = new ol.Map({
     overlays: [overlayPopup],
     layers: layersList,
     view: new ol.View({
-         maxZoom: 28, minZoom: 1, projection: new ol.proj.Projection({
+        extent: [79065.442233, 9801.106849, 1451137.534224, 1006728.415108], maxZoom: 28, minZoom: 1, projection: new ol.proj.Projection({
             code: 'ESRI:102003',
             extent: [-20037508.342789, -20037508.342789, 20037508.342789, 20037508.342789],
             units: 'm'})
@@ -40,7 +40,7 @@ layerSwitcher.hidePanel = function() {};
 layerSwitcher.showPanel();
 
 
-map.getView().fit([-60322.757158, -117742.759963, 1690827.556271, 1154617.182720], map.getSize());
+map.getView().fit([79065.442233, 9801.106849, 1451137.534224, 1006728.415108], map.getSize());
 
 var NO_POPUP = 0
 var ALL_FIELDS = 1
