@@ -14,7 +14,7 @@ var style_Workplaces_1 = function(feature, resolution){
     var bufferColor = "#000000";
     var bufferWidth = 2;
     var textAlign = "left";
-    var offsetX = 12;
+    var offsetX = 8;
     var offsetY = 3;
     var placement = 'point';
     if (feature.get("Position Title") !== null) {

@@ -1,5 +1,5 @@
 ol.proj.proj4.register(proj4);
-ol.proj.get("ESRI:102003").setExtent([79065.442233, 9801.106849, 1451137.534224, 1006728.415108]);
+ol.proj.get("ESRI:102003").setExtent([441838.429906, 280384.259371, 1127874.475901, 778847.913500]);
 var wms_layers = [];
 
 
